@@ -1,5 +1,5 @@
 # Team Project: Calculator Application
-# Version: 1.0.0
+# Version: 1.1.0
 def add(a, b):
     """Add two numbers"""
     return a + b
