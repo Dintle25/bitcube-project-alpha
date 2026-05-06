@@ -12,8 +12,9 @@ def multiply(a, b):
     pass
 def divide(a, b):
     """Divide a by b"""
-    # TODO: Implement this function
-    pass
+    if b == 0:
+        raise ValueError("Cannot divide by zero!")
+    return a / b
 if __name__ == "__main__":
     print("Calculator v1.0.0")
     print(f"10 + 5 = {add(10, 5)}")
