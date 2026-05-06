@@ -8,8 +8,10 @@ def subtract(a, b):
     return a - b
 def multiply(a, b):
     """Multiply two numbers"""
-    # TODO: Implement this function
-    pass
+    result = a * b
+    print(f"Multiplying {a} x {b}")
+    return result
+
 def divide(a, b):
     """Divide a by b"""
     if b == 0:
