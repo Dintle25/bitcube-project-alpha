@@ -6,10 +6,16 @@ def add(a, b):
 def subtract(a, b):
     """Subtract b from a"""
     return a - b
+# def multiply(a, b):
+#     """Multiply two numbers"""
+#     # TODO: Implement this function
+#     pass
 def multiply(a, b):
     """Multiply two numbers"""
-    # TODO: Implement this function
-    pass
+    result = a * b
+    print(f"Multiplying {a} x {b}")
+    return result
+
 def divide(a, b):
     """Divide a by b"""
     # TODO: Implement this function
