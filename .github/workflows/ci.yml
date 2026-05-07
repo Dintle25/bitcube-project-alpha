@@ -1,0 +1,17 @@
+# Name of the workflow that will display in Github
+name: CI Demo
+# When the workflow should run
+on:
+  push:
+    branches: [main]
+  pull_request:
+#What work shold be done when it runs
+jobs:
+  demo-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+#Run a command
+      - name: Run demo command
+        run: echo "CI is running"      
