@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoomBooking</title>
+    <style>
+        body {
+            background: lightblue;
+            margin: 0;
+            padding: 20px;
+            color: black;
+        }
+        .container {
+            max-width: 600px;
+            margin: 30px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px gray;
+            text-align: center;
+        }
+        h1 {
+            color: darkblue;
+            margin: 0 0 8px 0;
+        }
+        p {
+            color: darkgray;
+            margin-bottom: 20px;
+        }
+        .room {
+            background: lightslategray;
+            padding: 12px;
+            margin: 12px 0;
+            border-radius: 6px;
+            text-align: left;
+        }
+        button {
+            background: darkblue;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            margin: 8px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>RoomBooking</h1>
+        <p>Conference Room Booking System</p>
+
+        <div class="room">
+            <strong>Boardroom A</strong><br>
+            Capacity: 12 | Available Now
+        </div>
+
+        <div class="room">
+            <strong>Meeting Room B</strong><br>
+            Capacity: 6 | Booked until 3:00 PM
+        </div>
+
+        <div class="room">
+            <strong>Workshop Room C</strong><br>
+            Capacity: 25 | Available
+        </div>
+
+        <button>Book Boardroom A</button>
+        <button>Book Workshop Room C</button>
+    </div>
+</body>
+</html>
